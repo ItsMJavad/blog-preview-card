@@ -1,0 +1,93 @@
+@font-face {
+    font-family: figtree;
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4d04e;
+}
+
+main {
+    width: 21rem;
+    margin: 13rem auto;
+    padding: 1.1rem 0;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0.5rem 0.5rem black;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'figtree';
+}
+
+.container .article-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .status {
+    width: fit-content;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    background-color: #f4d04e;
+    font-weight: 800;
+    font-size: 0.85rem;
+}
+
+.container .p-date {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #121212;
+}
+
+.container h1 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.container .description {
+    margin: 0 0 1rem;
+    color: #6b6b6b;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.container .profile {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.profile img {
+    width: 2rem;
+}
+
+.profile p {
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+
+.attribution {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:400px) {
+    main {
+        width: 90%;
+    }
+}
