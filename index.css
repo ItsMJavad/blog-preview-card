@@ -50,8 +50,16 @@ main {
 }
 
 .container h1 {
+    width: fit-content;
     font-size: 1.4rem;
     font-weight: 800;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.container h1:hover,
+.container h1:active {
+    color: #f4d04e;
 }
 
 .container .description {
@@ -62,9 +70,11 @@ main {
 }
 
 .container .profile {
+    width: fit-content;
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    cursor: pointer;
 }
 
 .profile img {
